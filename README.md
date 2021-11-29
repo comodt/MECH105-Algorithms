@@ -1,2 +1,6 @@
 # MECH105-Algorithms
-Numerical methods algorithms for **MECH 105** (Fa21)
+These are the algorithms I created for **MECH 105 (Fa21)** *utilizing* different numerical methods. The algorithms are as follows
+* List
+* Starts 
+* Here
+
