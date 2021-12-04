@@ -23,3 +23,4 @@ This algorithm **approximates** the value of an integral
 --- 
 I must note that I only got 20% on Matlab Grader for this assignment. Therefore, this code won't work very well ;(
 ---
+This path includes code for the algorithm and code to test the algorithm
