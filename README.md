@@ -2,7 +2,7 @@
 This is the LU factorization algorithm that I created with Gaussian elimination
 
 **Inputs**
-*A - coefficient matrix (number of rows must equal number of columns)
+1. A - coefficient matrix (number of rows must equal number of columns)
 
 **Outputs** 
 1. L (lower triangular matrix, with 1's along diagonals)
