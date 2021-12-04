@@ -15,3 +15,4 @@ This is the LU factorization algorithm that I created which implements Gaussian 
 I must note that I only got 70% on Matlab Grader for this assignment. Therefore, this code won't work for all matricies.
 ---
 
+This path includes code for the algorithm and code to test the algorithm
