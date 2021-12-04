@@ -1,16 +1,25 @@
-# Linear Algebra Algorithm
-This is the LU factorization algorithm that I created with Gaussian elimination
+# Simpson's 1/3 Algorithm
+This is the Simpson's 1/3 Algroithm that I wrote using MATLAB.
+
+---
+This algorithm **approximates** the value of an integral
+---
+**Note**
+1. If the number of intervals is odd, the trapezoidal rule will be used on the last interval. 
+2. Call the function using Simpson(x,y) where  the function numerically evaluates the integral of the vector of function values y with respect to x.
+
+## My function includes the following: ##
+1. Error check that the inputs are the same length.
+2. Error check that the x input is equally spaced.
+3. Warn the user (not an error, just a warning) if the trapezoidal rule has to be used on the last interval.
+
 
 **Inputs**
-1. A - coefficient matrix (number of rows must equal number of columns)
+1. x = the vector of equally spaced independent variable
+2. y = the vector of function values with respect to x
 
 **Outputs** 
-1. L (lower triangular matrix, with 1's along diagonals)
-2. U (upper triangular matrix)
-3. P (pivot matrix)
-
-*Remember*, a correctly solve LU factorization solves for the problem **P * A = L * U**, which is a good check to make sure your solution is correct
-
+1. I = the numerical integral calculated
 --- 
-I must note that I only got 70% on Matlab Grader for this assignment. Therefore, this code won't work for all matricies.
+I must note that I only got 20% on Matlab Grader for this assignment. Therefore, this code won't work very well ;(
 ---
