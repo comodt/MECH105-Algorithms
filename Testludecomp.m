@@ -12,6 +12,6 @@
 `x = A\b;`
 
 % Test your function
-'[L, U, P] = luFactor(A)'
+`[L, U, P] = luFactor(A)`
 
 % How can you test the output of your function is correct?
